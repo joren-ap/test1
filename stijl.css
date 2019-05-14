@@ -1,0 +1,96 @@
+body {
+  font-family: helvetica;
+}
+
+header {
+  height: 8rem;
+}
+
+img {
+  max-width: 12rem;
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  display: inline;
+  position: relative;
+  top: -2.3rem;
+  font-weight: 900;
+  color: rgb(211 45 33);
+  left: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  position: absolute;
+  top: 3rem;
+  right: 10vw;
+}
+
+main {
+  background-image: linear-gradient(180deg, rgb(151, 0, 12), rgb(196, 0, 9));
+  height: 100vh;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 25vh;
+  color: white;
+}
+
+#ja {
+  padding: 1rem;
+  font-size: 2.5rem;
+  border-radius: 7%;
+  display: inline;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-image: linear-gradient(rgb(36 36 38), black 50%, rgb(18 18 19) 51%);
+  color: white;
+  font-weight: 900;
+  position: relative;
+  left: 36vw;
+  top: 5rem;
+}
+
+#ja:hover {
+  background-image: linear-gradient(black, black);
+}
+
+#nee {
+  padding: 1rem;
+  font-size: 2.5rem;
+  border-radius: 7%;
+  display: inline;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-image: linear-gradient(rgb(36 36 38), black 50%, rgb(18 18 19) 51%);
+  color: white;
+  font-weight: 900;
+  position: relative;
+  left: 43vw;
+  top: 5rem;
+}
+
+#nee:hover {
+  background-image: linear-gradient(black, black);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: white;
+  height: 5rem;
+}
+
+h4 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+}

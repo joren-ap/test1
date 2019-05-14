@@ -1,0 +1,130 @@
+body {
+  font-family: helvetica;
+}
+
+header {
+  height: 8rem;
+}
+
+img {
+  max-width: 12rem;
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  display: inline;
+  position: relative;
+  top: -2.3rem;
+  font-weight: 900;
+  color: rgb(211 45 33);
+  left: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  position: absolute;
+  top: 3rem;
+  right: 10vw;
+}
+
+main {
+  background-image: linear-gradient(180deg, rgb(151, 0, 12), rgb(196, 0, 9));
+  height: 100vh;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 25vh;
+  color: white;
+}
+
+.voteja {
+  height: 0rem;
+  background-color: white;
+  width: 7rem;
+  margin-left: 43vw;
+  margin-top: 7rem;
+  animation-name: yes;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes yes {
+  100% {
+    height: 270rem;
+  }
+}
+
+.votenee {
+  height: 0rem;
+  background-color: white;
+  width: 7rem;
+  margin-left: 52vw;
+  margin-top: 7rem;
+  animation-name: no;
+  animation-duration: .5s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+  position: relative;
+  top:-10rem;
+}
+
+@keyframes no {
+  100% {
+    height: 30rem;
+  }
+}
+
+main p {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+  margin-top: -6rem;
+}
+
+#ja {
+  margin-left: 44vw;
+  animation-name: ja;
+  animation-duration: .5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes ja {
+  100% {
+    opacity: 100;
+  }
+}
+
+#nee {
+  margin-left: 53vw;
+  position: relative;
+  top: 1.2rem;
+  animation-name: nee;
+  animation-duration: .5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes nee {
+  100% {
+    opacity: 100;
+  }
+}
+
+footer {
+  background-color: white;
+  height: 5rem;
+}
+
+h4 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+}
